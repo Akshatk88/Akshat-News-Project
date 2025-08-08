@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Aggregator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>NEWS   AGGREGATOR</h1>
+        <nav>
+            <ul>
+                <button><a href="#" onclick="fetchNews('general')">General</a></button>
+                <button><a href="#" onclick="fetchNews('technology')">Technology</a></button>
+                <button><a href="#" onclick="fetchNews('sports')">Sports</a></button>
+                <button><a href="#" onclick="fetchNews('business')">Business</a></button>
+                <button><a href="#" onclick="fetchNews('health')">Health</a></button>
+            </ul>
+        </nav>
+    </header>
+    <main id="news-container">
+        <!-- News articles will be injected here -->
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
